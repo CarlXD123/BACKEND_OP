@@ -3,5 +3,5 @@ services:
     name: backop
     env: node
     buildCommand: npm install
-    startCommand: npm start
+    startCommand: npm run start
     preInstallCommand: npm uninstall bcrypt && npm install bcrypt
